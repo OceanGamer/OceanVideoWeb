@@ -1,0 +1,273 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+.pestanas{
+    width: 100%;
+    height: 25px;
+    display: flex;
+}
+
+.topbutton{
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    border-radius: 5px 5px 0px 0px;
+    margin-right: 1px;
+    margin-left: 1px;
+    transition: 0.2s;
+    display: flex;
+    padding: 4px;
+}
+
+.topbutton h2{
+    margin: 0%;
+    margin-left: 5px;
+    font-size: medium;
+}
+.topbutton img{
+    width: 20px;
+    height: 20px;
+}
+
+.topbuttonsmall{
+    height: 100%;
+    width: 40px;
+    border: 0px;
+    border-radius: 5px 5px 0px 0px;
+    margin-right: 1px;
+    margin-left: 1px;
+    transition: 0.2s;
+}
+
+.topbuttonsmall img{
+    width: 24px;
+    height: 24px;
+}
+.webcontent{
+    display: flex;
+}
+
+.diver{
+    width: 50%;
+    justify-content: center;
+    padding-top: 5%;
+    box-sizing: border-box;
+    margin: 0% auto;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.diver2{
+    width: 50%;
+    justify-content: center;
+    padding-top: 5%;
+    box-sizing: border-box;
+    margin: 0% auto;
+    overflow-y: visible;
+}
+
+.nooverflow{
+    overflow: visible;
+}
+
+.border{
+    box-shadow: 1 1 1 1 red;
+    border-color: rgb(231, 0, 0);
+}
+.ihr{
+    width: 4px;
+    height: 100vh;
+    border: 0;
+    margin: 0%;
+}
+.content{
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.content img{
+    width: 80px;
+    height: 80px;
+}
+.content input{
+    width: 250px;
+    height: 30px;
+    border: 2px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    outline: none;
+    border-style: solid;
+    transition: 0.2s;
+    padding-left: 15px;
+}
+
+.content button{
+    width: 150px;
+    height: 30px;
+    border: 0px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    border-style: solid;
+    transition: 0.2s;
+}
+
+.downloadbtn{
+    width: 250px;
+    height: 30px;
+    margin: 5px;
+    border: 0px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    border-style: solid;
+    transition: 0.2s;
+}
+.flexbox{
+    display: flex;
+    justify-content: center;
+}
+
+.preview{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.minussize{
+    width: 300px;
+    display: block;
+}
+
+#photo{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#photo2{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#photo3{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.footer{
+    text-align: center;
+    font-size: smaller;
+}
+
+.downloadExtZone{
+    padding: 5%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.nodecoration{
+    text-decoration: none;
+}
+
+.amargin{
+    margin: 15px;
+}
+
+@media (min-width: 580px) and (max-width: 760px) {
+    .webcontent{
+        display: block;
+    }
+    .ihr{
+        display: none;
+    }
+    .diver{
+        width: 100%;
+        overflow: visible;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    body{
+        overflow: visible;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 580px) {
+    .webcontent{
+        display: block;
+    }
+    .ihr{
+        display: none;
+    }
+    .diver{
+        width: 100%;
+        height: auto;
+        overflow: visible;
+        margin-bottom: 20px;
+    }
+    body{
+        overflow: visible;
+    }
+    .topbutton h2{
+        display: none;
+    }
+
+    .topbutton{
+        padding: 4px;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+    .webcontent{
+        display: block;
+    }
+    .ihr{
+        display: none;
+    }
+    .diver{
+        width: 100%;
+        height: auto;
+        overflow: visible;
+        margin-bottom: 20px;
+    }
+    body{
+        overflow: visible;
+    }
+    .topbutton h2{
+        display: none;
+    }
+
+    .topbutton{
+        padding: 4px;
+        justify-content: center;
+    }
+
+    .preview{
+        width: 100%;
+        padding: 1px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .photo{
+        width: 100%;
+        margin: 1px;
+    }
+
+    .amargin{
+        margin: 0%;
+    }
+}
