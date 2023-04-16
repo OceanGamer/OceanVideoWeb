@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" id="mode" href="css/darkmode.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="./images/icons/logo128.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>OceanVideo Downloader</title>
+</head>
+<body>
+    <div class="pestanas">
+        <button class="topbuttonsmall" id="darklightbtn"><img src="images/TopButtons/light.png"></button>
+        <button class="topbutton" id="universalbtn"><img src="images/icons/logo128.png"><h2>Inicio</h2></button>
+        <button class="topbutton" id="youtubebtn"><img src="images/TopButtons/youtube128.png"><h2>Youtube</h2></button>
+        <button class="topbutton" id="tiktokbtn"><img src="images/TopButtons/tiktok128.png"><h2>TikTok</h2></button>
+        <button class="topbutton" id="instagrambtn"><img src="images/TopButtons/instagram128.png"><h2>Instagram</h2></button>
+        <button class="topbutton" id="facebookbtn"><img src="images/TopButtons/facebook128.png"><h2>Facebook</h2></button>
+    </div>
+    <div class="content">
+        <div id="universal">
+            <div class="webcontent">
+                <div class="diver">
+                    <img src="images/icons/logo128.png">
+                    <h2>Descarga fotos yvideos de Youtube, Instagram, Facebook y TikTok</h2>
+                    <input type="text" id="allinput" placeholder="Coloca una URL de un video o foto">
+                    <div class="flexbox">
+                        <div class="preview minussize">
+                            <div>
+                                <button id="alldownloadbtn">Buscar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="allcontent">
+                        
+                    </div>
+                    <div class="footer">
+                        <div class="downloadExtZone">
+                            <h2>Descarga videos y fotos de Youtube, Instagram, Facebook y TikTok facilmente, gratis y sin publicidad con la extension OceanVideo Downloader</h2>
+                            <div><a href="download.html"><button id="allad">Descargar Ahora</button></a></div>
+                            <a href="https://oceangamer.github.io/Ocean/" class="nodecoration">Ver otras apps</a>
+                        </div>
+                        <h2>Creado por Cesar Galindo</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="youtube">
+            <div class="webcontent">
+                <div class="diver">
+                    <img src="images/TopButtons/youtube128.png">
+                    <h2>Descarga videos de Youtube</h2>
+                    <input type="text" id="ytinput" placeholder="Coloca la URL de un video de Youtube">
+                    <div class="flexbox">
+                        <div class="preview minussize">
+                            <div>
+                                <button id="ytdownloadbtn">Buscar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <div class="downloadExtZone">
+                            <h2>Descarga videos de Youtube facilmente, gratis y sin publicidad con la extension OceanVideo Downloader</h2>
+                            <div><a href="download.html" download ><button id="redAd">Descargar Ahora</button></a></div>
+                            <a href="https://oceangamer.github.io/Ocean/" class="nodecoration">Ver otras apps</a>
+                        </div>
+                        <h2>Creado por Cesar Galindo</h2>
+                    </div>
+                </div>
+                <hr class="ihr">
+                <div class="diver">
+                        <div class="flexbox">
+                            <div id="ytcontent" class="minussize">
+                                <div class="preview">
+                                    <p>Aqui aparecera los videos de youtube que sean encontrados</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div id="instagram">
+            <div class="webcontent">
+                <div class="diver">
+                    <img src="images/TopButtons/instagram128.png">
+                    <h2>Descarga fotos y videos de Instagram</h2>
+                    <input type="text" id="iginput" placeholder="Coloca la URL de Instagram">
+                    <div class="flexbox">
+                        <div class="preview minussize">
+                            <div>
+                                <button id="igdownloadbtn">Buscar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <div class="downloadExtZone">
+                            <h2>Descarga videos y fotos de Instagram facilmente, gratis y sin publicidad con la extension OceanVideo Downloader</h2>
+                            <div><a href="download.html" download ><button id="igAd">Descargar Ahora</button></a></div>
+                            <a href="https://oceangamer.github.io/Ocean/" class="nodecoration">Ver otras apps</a>
+                        </div>
+                        <h2>Creado por Cesar Galindo</h2>
+                    </div>
+                </div>
+                <hr class="ihr">
+                <div class="diver">
+                        <div class="flexbox">
+                            <div id="igcontent" class="minussize">
+                                <div class="preview">
+                                    <p>Aqui aparecera las publicaciones de instagram que sean encontradas</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div id="tiktok">
+            <div class="webcontent">
+                <div class="diver">
+                    <img src="images/TopButtons/tiktok128.png">
+                    <h2>Descarga videos de TikTok</h2>
+                    <input type="text" id="tkinput" placeholder="Coloca la URL de un video de TikTok">
+                    <div class="flexbox">
+                        <div class="preview minussize">
+                            <div>
+                                <button id="tkdownloadbtn">Buscar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <div class="downloadExtZone">
+                            <h2>Descarga videos de TikTok facilmente, gratis y sin publicidad con la extension OceanVideo Downloader</h2>
+                            <div><a href="download.html" download ><button id="tkAd">Descargar Ahora</button></a></div>
+                            <a href="https://oceangamer.github.io/Ocean/" class="nodecoration">Ver otras apps</a>
+                        </div>
+                        <h2>Creado por Cesar Galindo</h2>
+                    </div>
+                </div>
+                <hr class="ihr">
+                <div class="diver">
+                        <div class="flexbox">
+                            <div id="tkcontent" class="minussize">
+                                <div class="preview">
+                                    <p>Aqui aparecera los TikToks que sean encontradas</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div id="facebook">
+            <div class="webcontent">
+                <div class="diver">
+                    <img src="images/TopButtons/facebook128.png">
+                    <h2>Descarga videos y Reels de Facebook</h2>
+                    <input type="text" id="fbinput" placeholder="Coloca la URL de un video o reel de Facebook">
+                    <div class="flexbox">
+                        <div class="preview minussize">
+                            <div>
+                                <button id="fbdownloadbtn">Buscar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <div class="downloadExtZone">
+                            <h2>Descarga videos y reels de Facebook facilmente, gratis y sin publicidad con la extension OceanVideo Downloader</h2>
+                            <div><a href="download.html" download ><button id="fbAd">Descargar Ahora</button></a></div>
+                            <a href="https://oceangamer.github.io/Ocean/" class="nodecoration">Ver otras apps</a>
+                        </div>
+                        <h2>Creado por Cesar Galindo</h2>
+                    </div>
+                </div>
+                <hr class="ihr">
+                <div class="diver">
+                        <div class="flexbox">
+                            <div id="fbcontent" class="minussize">
+                                <div class="preview">
+                                    <p>Aqui aparecera los videos y reels de Facebook que sean encontradas</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
