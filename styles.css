@@ -153,6 +153,9 @@ body{
     border-radius: 10px;
     margin: 10px;
 }
+.block2{
+    display: flex;
+}
 
 #photo2{
     width: 250px;
@@ -186,6 +189,12 @@ body{
     margin: 15px;
 }
 
+.block{
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+}
+
 @media (min-width: 580px) and (max-width: 760px) {
     .webcontent{
         display: block;
@@ -201,6 +210,12 @@ body{
     }
     body{
         overflow: visible;
+    }
+
+    .block{
+        justify-content: center;
+        margin: auto;
+        width: 100%;
     }
 }
 
@@ -228,6 +243,16 @@ body{
         padding: 4px;
         justify-content: center;
     }
+    .block{
+        display: block;
+        width: 100%;
+    }
+    .block2{
+        display: block;
+    }
+    .diver2{
+        width: 100%;
+    }
 }
 
 @media (min-width: 0px) and (max-width: 480px) {
@@ -242,6 +267,9 @@ body{
         height: auto;
         overflow: visible;
         margin-bottom: 20px;
+    }
+    .diver2{
+        width: 100%;
     }
     body{
         overflow: visible;
@@ -269,5 +297,12 @@ body{
 
     .amargin{
         margin: 0%;
+    }
+    .block{
+        display: block;
+        width: 100%;
+    }
+    .block2{
+        display: block;
     }
 }
