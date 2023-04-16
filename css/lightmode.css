@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(255, 255, 255)
+}
+
+.pestanas{
+    background-color: rgb(232, 232, 232)
+}
+
+.topbutton{
+    background-color: rgb(247, 247, 247);
+    color: black;
+}
+
+.topbutton:disabled{
+    background-color: rgb(255, 255, 255)
+}
+
+.topbutton:hover{
+    background-color: rgb(255, 255, 255)
+}
+
+.topbuttonsmall{
+    background-color: rgb(247, 247, 247)
+}
+
+.topbuttonsmall:disabled{
+    background-color: rgb(255, 255, 255)
+}
+
+.topbuttonsmall:hover{
+    background-color: rgb(255, 255, 255)
+}
+
+.footer{
+    color: black;
+}
+
+.content{
+    color: black;
+}
+
+.content input{
+    color: black;
+    background-color:rgb(255, 255, 255);
+    border-color: rgb(204, 204, 204);
+}
+.content input:active{
+    background-color: rgb(232, 232, 232)
+}
+
+.content button{
+    color: black;
+    background-color: rgb(229, 229, 229)
+}
+
+.downloadbtn{
+    color: black;
+    background-color: rgb(229, 229, 229)
+}
+
+.content button:hover{
+    background-color: rgb(178, 178, 178)
+}
+
+.content button:active{
+    background-color: (126, 126, 126);
+}
+
+.preview{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(200, 200, 200);
+    padding: 20px;
+}
+
+hr{
+    background-color: rgb(200, 200, 200);
+}
+
+.nodecoration{
+    color: rgb(0, 0, 0);
+}
+
+.nodecoration:hover{
+    color: rgb(61, 61, 61);
+}
+
+.downloadExtZone{
+    background-color: rgb(200, 200, 200);
+}
+
+#redAd{
+    background-color: #ff0000;
+    color: white;
+}
+
+#redAd:hover{
+    background-color: #8f0000;
+}
+
+#redAd:active{
+    background-color: #6b0202;
+}
+
+#igAd{
+    background-color: rgb(164, 29, 146);
+    color: white;
+}
+
+#igAd:hover{
+    background-color: rgb(136, 27, 121);
+}
+
+#igAd:active{
+    background-color: rgb(92, 17, 82);
+}
+
+#tkAd{
+    background-color: rgb(0, 195, 189);
+    color: white;
+}
+
+#tkAd:hover{
+    background-color: rgb(0, 148, 143);
+}
+
+#tkAd:active{
+    background-color: rgb(0, 104, 100);
+}
+
+#fbAd{
+    background-color: rgb(24, 119, 242);
+    color: white;
+}
+
+#fbAd:hover{
+    background-color: rgb(18, 90, 184);
+}
+
+#fbAd:active{
+    background-color: rgb(13, 65, 133);
+}
+
+#allad{
+    background-color: rgb(55, 157, 241);
+    color: white;
+}
+
+#allad:hover{
+    background-color: rgb(46, 129, 197);
+}
+
+#allad:active{
+    background-color: rgb(33, 91, 139);
+}
